@@ -1,3 +1,4 @@
+%%%PRACTICE OF SVD process
 n=12;
 m=15;
 %hacerlo  con n=12 y m=15
@@ -21,3 +22,4 @@ for i = 1:length(S)
 end
 rank(A_app);
 norm(A-A_app, "fro");
+
